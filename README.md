@@ -24,8 +24,10 @@ Pour passer sur Android, on peut garder à peu près la même structure:
  - pour le store, il faut utiliser une API comme Volley ou Robospice pour gérer correctement les requètes et les synchroniser avec le cycle de vie des activity
  - les interfaces de chargement et les listener peuvent rester identique
   
-  
-  Difficultés:
-  De manière générale, il n'y a pas de grosses difficultés. Il faudrait plus de temps pour avoir un design plus propre.
-  Je ne suis pas non plus entièrement satisfait de mon modèle. On aurait pu, à partir de la liste des utilisateurs, appeler par exemple une méthode user.loadAlbums() et ne pas passer le store entre ViewController directement. A voir...
+
+
+Difficultés:
+
+ De manière générale, il n'y a pas de grosses difficultés. Il faudrait plus de temps pour avoir un design plus propre.
+ Je ne suis pas non plus entièrement satisfait de mon modèle. On aurait pu, à partir de la liste des utilisateurs, appeler par exemple une méthode user.loadAlbums() et ne pas passer le store entre ViewController directement. A voir...
   
